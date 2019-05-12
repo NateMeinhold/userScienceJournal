@@ -167,85 +167,44 @@
 
               <p> Alt tags are imperative to users who are using screen readers; especially when the images provide information vital to understand the page.</p>
 
-                <a href="#">
-                    <img class="img-fluid" src="img/EH-alt-text-bad.JPG" alt="Screenshot of EvergreenHealth Mainpage with Dev Consol, the tags have incorrectly labeled the photos as 'Image of a Clock' when it really is an image that says 'wait times for emergency care'">
-                  </a>
-                  <span class="caption text-muted">Screenshot of EvergreenHealth Mainpage with Dev Consol, the tags have incorrectly labeled the photos as 'Image of a Clock' when it really is an image that says 'wait times for emergency care"</span>
-
-               <p><b>The Bad:</b></p>
-               <p>Although I was excited to see that the alt tags were filled out, I was disappointed to see that the information was not always the most accurate or that it had left out some important information.  
-               </p>
-
-               <p>Above in the image of the man and his daughter, the tag leaves at the image is an advertisement for "Concierge Family Medicine" and below, the image is labeled as an "analog clock" however there is no mention of it being a link for "Wait Times of Emergency Care".</p>
-
-          <h2 class="section-heading">Post 2: Navigating a College Website</h2>
-          <p><b>The Good:</b></p>
-          <p>The black text on a white background works well for reading and makes the text easy to see. The page makes use of headings and ample white space make the page easy to follow at a glance. Also, boxing similar information together creates a sense of cohesion. </p>
+          <h2 class="section-heading">Using Tools</h2>
+          <p><b>The Audit:</b></p>
+          <p>Using tools such as Lighthouse and WAVE made it much easier to locate potencial issues and fix them. </p>
 
           <a href="#">
-              <img class="img-fluid" src="img/EH-contrast-1.JPG" alt="Example of contrast on page, text is black and white. There are green and white links">
-            </a>
-            <img class="img-fluid" src="img/EH-contrast-2.JPG" alt="Example of contrast on page, text is black and white. There are green and white links">
-          </a>
-            <span class="caption text-muted">Example of contrast on page, text is black and white. There are green and white links</span>
+              <img class="img-fluid" src="img/US-audit.PNG" alt="Image of my Lighthouse Audit Results. Performance = 68, Accessibility = 82, Best Practices = 100, SEO =89">
+            </a> <span class="caption text-muted">Results of Lighthouse Audit</span>
 
-            <p><b>The Bad:</b></p>
-          <p>Although the regular text is easy to read, my concern is that the teal hyperlinks are much more difficult to read on the white background. The lines around the edges seem to fade away. Additionally, the white text on top of the green background is also much harder to 
-            read than the black text was.  </p>
+            <p>They are not a perfect fix however, so there is some work required to double-check the tool. WAVE will take a deep look into your code and find possible errors.  </p>
+
+
+            <img class="img-fluid" src="img/US-brokenlinks.JPG" alt="Screenshot of WAVE example. Three broken links are highlighted with red warnings">
+          </a>
+            <span class="caption text-muted">WAVE finds broken links</span>
+
+          <p>The tools are an excellent place to start. They will point out potencial issues and give you advice on how to fix them. But the developer is the one who has to go through their 
+            code after to fix it. </p>
 
           <!--<blockquote class="blockquote">NOT SURE IF I REALLY NEED THIS NOW, TAKE OUT IF NO</blockquote>-->
 
-          <h2 class="section-heading">Layout</h2>
-
-            <a href="#">
-              <img class="img-fluid" src="img/EH-Layout.JPG" alt="Example of neatly-ordered EvergreenHealth Webpage">
-              </a>
-            <span class="caption text-muted">Example of neatly-ordered EvergreenHealth Webpage</span>
-
-            <p><b>The Good:</b></p>
-            <p>Information is grouped in hierarchies, typically hidden underneath a drop-down menu. On the pages, information is again 
-              grouped together in logical ways making it relatively easy to locate information within the page. 
-              </p>
-
-              <p><b>The Bad:</b></p>
-              <p>Within the hierarchies there are some slight issue with grouping. Classes, for example are grouped under the "Patients & Visitors" 
-                Tab of the Nav bar (not the easiest place to find when a user is searching). Similarly some of the pages are organized very well while others are quite crowded.  
-              </p>
-              
-              <a href="#">
-                <img class="img-fluid" src="img/nedstark.jpg" alt="Example of neatly-ordered EvergreenHealth Webpage">
-                </a>
-              <span class="caption text-muted">Example of neatly-ordered EvergreenHealth Webpage</span>
-          <!--<a href="#">
-            <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-          </a>
-          <span class="caption text-muted">Placeholder Image</span>-->
-
-          <h2 class="section-heading">Documented Links</h2>
-
-          <a href="#">
-              <img class="img-fluid" src="img/EH-Links.JPG" alt="Example of neatly-labeled links on the EvergreenHealth site">
-            </a>
-            <span class="caption text-muted">Example of neatly-labeled links on the EvergreenHealth site</span>
-
-            <p><b>The Good:</b></p>
-
-            <p>Every link I checked was either labeled to where it went in the name or had an elaborate alternate title indicating where the link went...
-              sometimes both. I'm really impressed with this. I have nothing negative to say.   
-            </p>
-
           <h2 class="section-heading">Conclusion</h2>
 
-          <p>
-              Accessibility is a silent necessity within web development. It is something that is needed in order to make sure that everyone will be able to understand the information on a website.  
-          </p>
-          <p>My take-aways from this test (small changes that might help user experience) are:</p>
+            <p>Accessibility is easier said than done. If you have never thought about how someone might be having issues navigating your website, it can be really hard to 
+              understand why it is so important to make sure that your site is easily accessable.
+              </p>
+
+              <p>It took some work (not a lot) to add the features needed. It was mostly an exercise in frustration. All of these things are really easy to do right at the beginning
+                but are very tedious to add in later. 
+              </p>
+              
+          <strong>In Short:</strong>
+
           <ul>
-            <li>Make sure to label well with alt-tags, make sure they are acurately describing what they are representing</li>
-            <li>Adjust the lighter-colored text or add a border to make it easier to read on the white background.</li>
-            <li>Adjust the hierarchies to make the information more easy to locate. Try to keep like information together or perhaps add tabs to accommodate information that is different.</li>
+            <li>Make sure to label well with alt-tags.</li>
+            <li>Label Links with where they are going.</li>
+            <li>Be sure to fill captions with useful information.</li>
           </ul>
-         <p>With just a few easy changes, the site would be much more accessable for all users.</p>
+         <p>With just a few easy changes, any site would be much more accessable for all users.</p>
         
           <!--<p>Placeholder text by
             <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
